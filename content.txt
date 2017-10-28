@@ -1,6 +1,8 @@
-content: I am a self leaning web programmer via online course such as Treehouse, Codeschool, Youtube. Many of my close friend is in the creativity industry, some of them are programmer and some are graphic designer. They inspire and help me so much to get into this industry. 
+content: 
 
-I regularly study English Language at home because it is most important language for programming. Usually I study it through watch documentary with Englush subtitle enabled, and check the vocabulary via digital dictionary.
+
+
+I am a self leaning web programmer via online course such as Treehouse, Codeschool, Youtube. Many of my close friend is in the creativity industry, some of them are programmer and some are graphic designer. They inspire and help me so much to get into this industry.  I regularly study English Language at home because it is most important language for programming. Usually I study it through watch documentary with Englush subtitle enabled, and check the vocabulary via digital dictionary.
 
 Like reading book and watch documentary about History, Science, and sociology aimming to be 
 
