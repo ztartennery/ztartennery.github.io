@@ -4,15 +4,59 @@ content:
 
 I am a self leaning web programmer via online course such as Treehouse, Codeschool, Youtube. Many of my close friend is in the creativity industry, some of them are programmer and some are graphic designer. They inspire and help me so much to get into this industry.  I regularly study English Language at home because it is most important language for programming. Usually I study it through watch documentary with Englush subtitle enabled, and check the vocabulary via digital dictionary.
 
-Like reading book and watch documentary about History, Science, and sociology aimming to be 
+Like reading book and watch documentary about History, Science, and sociology aimming to be aware of the world situation and the trend.
 
-I did many jobs before, like baker, construction worker, telecommunication technician, warehouse worker and cleaning working. This kind of working experience teach me that I am not a person who like drudgery but is interested in profesional creative carrer.
+My philosophy:
+Life is sad but true. However, by totally knowing the truth, happiness will come. This philosophy is highly affected by Buddhism. 
 
-My prediction of the future is that the fourth industrial revolution is coming soon, the subject about STEM will be very important in the future, and programming will be one of the backbone of it.
 
-My objective is to become a full stack web developer, focus on Javascript, as well as web design as I also like design and art. furthermore, I hope I can study electronic after being proficient in web development.
 
-Why do I learn programming without attending school? It is because self-learning is more efficient and cheaper, and more flexible. 
+
+My prediction of the future is that the fourth industrial revolution is coming soon, the subject about STEM will be very important in the future, and programming will be one of the backbone of it. Beside, Steve Jobs once said, "Everybody in this country should learn how to program a computer... because it teaches you how to think."
+
+My objective is to become a full stack web developer, focus on Javascript, as well as web design as I also like design and art. furthermore, I hope I can study electronic after being proficient in web development. My mission is first to be proficient in frontend developmnet 
+
+Why do I learn programming without attending school? It is because self-learning is more efficient and cheaper, and more flexible. Today there are many free resource online and I have friends working in programming field who can help me. I am looking forward to cooperate with them.
+
+------------------------------
+The programming tool I used:
+
+Test editor: Sublime test 3, 
+Version control: git(command line) and Github,
+CSS preprocessor: ruby-driven SCSS,
+OS: windows 10
+
+What I have learned:
+html 5, CSS3, Javascript(ES2015)(OOP), Bootstrap 4, SCSS, Git
+
+
+--------------------------
+
+working experence:
+
+I did many jobs before, like baker, construction worker, telecommunication technician, warehouse worker and cleaning working. This kind of working experience teach me that I am not a person who like drudgery but is interested in professional creative carrer. 
+
+junior baker at Saint Honore Cake Shop factory, paticipate in bread production near the hot ovens. I was scalded by the ovens often.
+
+assistant in a book warehouse, work overtime nearly everyday. 
+
+a overnight construction worker in Disneyland, to Repair the exhibition items , usually work at height on scaffoldings, working enviromnet is very poor and climbing the scaffolding is exhasuting.
+
+
+a telecommunication technician to repair equipment of base station of mobile phone radio. The roof ob buildings is a common working enviromnet. I often encounter extreme sunshine in summer and chilliness in winter. Good comminucation skill is needed because of frequent interaction with headquarter stuff.
+I apprenticed with a senior stuff in the first two months and after that worked indepeadantly. 
+
+
+cleaning worker in a highgrade residence to collect rubbish, cleaing the lobby, sometimes being a foreman to oversee the operation of other workers. I was in nasty and digusting scenario many times.
+
+
+
+
+
+
+
+
+
 
 
 
