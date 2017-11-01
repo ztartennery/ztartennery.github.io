@@ -27,6 +27,10 @@
                             background-image: url('img/keyboard.jpg');
                             background-size: 100%;
                         }
+
+                        .carousel-item h2 {
+                            text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+                        }
                         /*.nav-item {
     padding-right: 150px;
 }*/
