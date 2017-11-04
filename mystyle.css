@@ -1,5 +1,5 @@
                         .mar {
-                            margin: 100px auto;
+                            margin: 120px auto;
                         }
 
                         .container {
@@ -48,4 +48,8 @@
 
                         #name {
                             color: rgb(40, 108, 255);
+                        }
+
+                        body>div.container>div {
+                            padding-top: 50px;
                         }
