@@ -53,3 +53,9 @@
                         body>div.container>div {
                             padding-top: 50px;
                         }
+
+                        .narrow {
+
+                            width: 70%;
+                            margin: 0 auto 30px;
+                        }
