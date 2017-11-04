@@ -30,6 +30,7 @@
 
                         .carousel-item h2 {
                             text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+                            height: 120px;
                         }
 
                         .carousel-item h1 {
@@ -38,6 +39,8 @@
                             font-size: 100px;
                             margin-bottom: 80px;
                         }
+
+
 
                         #powerup a {
                             padding-right: 65px
