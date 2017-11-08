@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <title>My first porfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar" data-offset="250">
@@ -20,7 +21,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
                 <div id="powerup" class="navbar-nav">
                     <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#info">Info</a>
@@ -139,6 +140,7 @@
         <!-- /cards-->
         <!-- main content -->
         <div class="mar" id="Aboutme">
+            <h1 class="display-4 text-center my-5 text-muted">About me</h1>
             <h1>Who am I?</h1>
             <p>I am a self-learning web programmer via online course such as Treehouse, Codeschool, Youtube. Many of my close friends are in the creative industry, some of them are programmers and some are graphic designers. They inspire and help me so much to get into this industry. I regularly study the English Language at home because it is a most important language for programming. Usually, I study it through watch documentary with English subtitle enabled and check the vocabulary via a digital dictionary. I like reading books and watch documentaries about History, Science, and sociology aiming to be aware of the world situation and the trend.</p>
             <div class="row">
@@ -152,7 +154,7 @@
                 </div>
                 <div class="col-md-4">
                     <h1>Mission</h1>
-                    <p>My objective is to become a full stack web developer, focus on Javascript, as well as web design as I also like design and art. Furthermore, I hope I can study electronic after being proficient in web development. My mission is first to be proficient in frontend development </p>
+                    <p>My objective is to become a full stack web developer, focus on Javascript, as well as web design as I also like design and art. Furthermore, I hope I can study electronic after being proficient in web development. My mission is first to be proficient in frontend development.</p>
                 </div>
             </div>
         </div>
@@ -182,7 +184,7 @@
         </div>
         <!-- /language -->
         <!-- tools -->
-        <div class="mar" id="tools">
+        <div id="tools" class="mar">
             <h1 class="display-4 text-center my-5 text-muted">The programming tool I used</h1>
             <table class="table table-hover ">
                 <thead class="bg-primary thead-dark">
@@ -213,7 +215,7 @@
         </div>
         <!-- /tools -->
         <!-- Working Experience -->
-        <div class="mar" id="experience">
+        <div id="experience" class="mar">
             <h1 class="display-4 text-center my-5 text-muted">Working Experience</h1>
             <h4 class="narrow">I did many jobs before, like a baker, construction worker, telecommunication technician, warehouse worker and cleaning work. This kind of working experience teaches me that I am not a person who like drudgery but is interested in professional creative career.</h4>
             <ul class="list-group ">
@@ -221,7 +223,7 @@
                     <div class="d-flex justify-content-between ">
                         <h3 class="mb-2 text-primary">Junior baker</h3>
                     </div>
-                    <p class="mb-1 ">At Saint Honore Cake Shop factory, participate in bread production near the hot ovens. I was scalded by the ovens often.</p>
+                    <p class="mb-1 ">At Saint Honore Cake Shop factory, participate in bread production near hot ovens. I was scalded by the ovens often.</p>
                     <span class="badge badge-pill badge-info p-2 ">2013</span>
                 </li>
                 <li class="list-group-item ">
@@ -293,6 +295,7 @@
         $('[data-toggle="tooltip"]').tooltip()
     })
     </script>
+    <script src="smoothscrolling.js"></script>
 </body>
 
 </html>
