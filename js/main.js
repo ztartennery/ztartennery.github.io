@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".animsition").animsition({
-        inClass: 'fade-in-right-lg',
-        outClass: 'fade-out-right-lg',
+        inClass: 'fade-in-right',
+        outClass: 'fade-out-right',
         inDuration: 1000,
         outDuration: 1000,
         linkElement: '.animsition-link',
@@ -10,7 +10,7 @@ $(document).ready(function() {
         loadingParentElement: 'body', //animsition wrapper element
         loadingClass: 'animsition-loading',
         loadingInner: '', // e.g '<img src="loading.svg" />'
-        timeout: false,
+        timeout: true,
         timeoutCountdown: 5000,
         onLoadEvent: true,
         browser: ['animation-duration', '-webkit-animation-duration'],
