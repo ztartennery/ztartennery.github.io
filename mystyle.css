@@ -45,7 +45,8 @@
                             padding-right: 65px
                         }
 
-                        #name {
+                        #name,
+                        .section-heading {
                             color: rgb(40, 108, 255);
                         }
 
@@ -61,4 +62,12 @@
 
                         .book-photo {
                             max-width: 300px
+                        }
+
+                        .grey-background {
+                            padding-top: 40px;
+                            padding-bottom: 40px;
+
+
+                            background-color: #F4F9F9;
                         }
