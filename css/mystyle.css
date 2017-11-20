@@ -44,11 +44,15 @@
   height: 700px; }
   .itemdiv .book-photo {
     max-height: 500px;
-    float: left; }
+    float: left;
+    margin-right: 20px; }
   .itemdiv p {
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 2px 2px 0px black;
     color: white; }
+  .itemdiv h1 {
+    margin-bottom: 40px;
+    color: orange; }
 
 .grey-background {
   padding-top: 22px;
