@@ -23,4 +23,4 @@ $(".animsition").animsition({
 
 $('.tlt').textillate({ in: { effect: 'rollIn' } });
 
-$(document).ready(function() { $('#wrapper').tubular({ videoId: 'br7EOEq6LeM' }); // where idOfYourVideo is the YouTube ID. });
+$(document).ready(function() { $('#wrapper').tubular({ videoId: 'br7EOEq6LeM' }); });
