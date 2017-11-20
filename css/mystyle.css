@@ -46,7 +46,9 @@
     max-height: 500px;
     float: left; }
   .itemdiv p {
-    font-size: 30px; }
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    font-color: white; }
 
 .grey-background {
   padding-top: 22px;
