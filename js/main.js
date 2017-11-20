@@ -23,4 +23,9 @@ $(".animsition").animsition({
 
 $('.tlt').textillate({ in: { effect: 'rollIn' } });
 
-$('#wrapper').tubular({ videoId: 'br7EOEq6LeM' });
+$('document').ready(function() {
+    var options = { videoId: 'br7EOEq6LeM' };
+    $('#wrapper').tubular(options);
+    // f-UGhWj1xww cool sepia hd
+    // 49SKbS7Xwf4 beautiful barn sepia
+});
