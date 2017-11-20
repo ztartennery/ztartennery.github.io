@@ -1,23 +1,56 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - scss/mystyle.scss
+.mar {
+  margin: 80px auto; }
 
-Backtrace:
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:454:in `read'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
-C:/Ruby24-x64/bin/sass:23:in `load'
-C:/Ruby24-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss/mystyle.scss"; }
+.container {
+  max-width: 75%; }
+
+.card-img {
+  height: 220px; }
+
+.carousel-item {
+  height: 500px;
+  background-image: url("../img/buddha2.jpg");
+  background-size: 100%; }
+  .carousel-item h2 {
+    text-shadow: 1px 1px 1px #141414;
+    height: 120px; }
+  .carousel-item h1 {
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 1px 1px 1px #141414;
+    font-size: 100px;
+    margin-bottom: 80px; }
+  .carousel-item:nth-child(2) {
+    background-image: url("../img/bluekey.jpg");
+    background-size: 100%; }
+  .carousel-item:nth-child(3) {
+    background-image: url("../img/keyboard.jpg");
+    background-size: 100%; }
+
+#powerup a {
+  padding-right: 65px; }
+
+#name,
+.section-heading {
+  color: #286cff; }
+
+.anchor-padding {
+  padding-top: 45px; }
+
+.narrow {
+  width: 70%;
+  margin: 0 auto 30px; }
+
+.itemdiv {
+  height: 700px; }
+  .itemdiv .book-photo {
+    max-height: 500px;
+    float: left; }
+  .itemdiv p {
+    font-size: 30px; }
+
+.grey-background {
+  padding-top: 22px;
+  padding-bottom: 20px;
+  background-color: #F4F9F9; }
+
+/*# sourceMappingURL=mystyle.css.map */

@@ -22,3 +22,5 @@ $(".animsition").animsition({
 });
 
 $('.tlt').textillate({ in: { effect: 'rollIn' } });
+
+$().ready(function() { $('#wrapper').tubular({ videoId: 'br7EOEq6LeM' }); // where idOfYourVideo is the YouTube ID. });

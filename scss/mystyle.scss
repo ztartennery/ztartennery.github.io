@@ -1,0 +1,86 @@
+.mar {
+    margin: 80px auto;
+}
+
+.container {
+    max-width: 75%;
+}
+
+.card-img {
+    height: 220px;
+}
+
+
+.carousel-item {
+    height: 500px;
+    background-image: url('../img/buddha2.jpg');
+    background-size: 100%;
+
+    h2 {
+        text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+        height: 120px;
+    }
+
+    h1 {
+        font-family: 'Indie Flower', cursive;
+        text-shadow: 1px 1px 1px rgba(20, 20, 20, 1);
+        font-size: 100px;
+        margin-bottom: 80px;
+    }
+
+    &:nth-child(2) {
+        background-image: url('../img/bluekey.jpg');
+        background-size: 100%;
+    }
+
+    &:nth-child(3) {
+        background-image: url('../img/keyboard.jpg');
+        background-size: 100%;
+    }
+}
+
+
+
+#powerup a {
+    padding-right: 65px
+}
+
+#name,
+.section-heading {
+    color: rgb(40, 108, 255);
+}
+
+.anchor-padding {
+    padding-top: 45px;
+}
+
+.narrow {
+
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.itemdiv {
+    .book-photo {
+        max-height: 500px;
+        float: left;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+
+    height: 700px;
+}
+
+
+
+
+.grey-background {
+    padding-top: 22px;
+    padding-bottom: 20px;
+
+
+    background-color: #F4F9F9;
+}
