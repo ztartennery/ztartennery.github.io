@@ -45,7 +45,7 @@
   .itemdiv .book-photo {
     max-height: 500px;
     float: left;
-    margin-right: 20px; }
+    margin-right: 35px; }
   .itemdiv p {
     font-size: 25px;
     text-shadow: 2px 2px 0px black;
@@ -53,6 +53,9 @@
   .itemdiv h1 {
     margin-bottom: 40px;
     color: orange; }
+  .itemdiv iframe {
+    float: left;
+    margin-right: 35px; }
 
 .grey-background {
   padding-top: 22px;
