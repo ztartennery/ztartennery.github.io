@@ -43,6 +43,17 @@ h5.card-text {
     }
 }
 
+#knowledge {
+
+
+    img {
+        transition: transform .2s;
+
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+}
 
 
 #powerup a {
