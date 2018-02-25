@@ -1,0 +1,28 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-anticlockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+
+#Big_gear {
+    animation: spin 4s infinite linear;
+    transform-origin: 521px 551px;
+}
+
+#Small_gear {
+    animation: spin-anticlockwise 3.560583120204604s infinite linear;
+    transform-origin: 828.451px 248.157px;
+}
