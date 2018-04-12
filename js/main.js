@@ -29,3 +29,12 @@ $('document').ready(function() {
     // f-UGhWj1xww cool sepia hd
     // 49SKbS7Xwf4 beautiful barn sepia
 });
+
+MorphSVGPlugin.convertToPath("#star");
+TweenMax.to("#eaglepng", 1, { y: -50, repeat: -1, yoyo: true, ease: Power2.easeInOut });
+
+
+var tl = new TimelineMax({ repeat: -1 });
+tl.to("#star", 2, { morphSVG: "#heart-simple-shape-silhouette", ease: Elastic.easeOut })
+    .to("#star", 2, { morphSVG: "#thumb", ease: Elastic.easeOut })
+    .to("#star", 2, { morphSVG: "#star", ease: Elastic.easeOut })
