@@ -38,3 +38,23 @@ var tl = new TimelineMax({ repeat: -1 });
 tl.to("#star", 2, { morphSVG: "#heart-simple-shape-silhouette", ease: Elastic.easeOut })
     .to("#star", 2, { morphSVG: "#thumb", ease: Elastic.easeOut })
     .to("#star", 2, { morphSVG: "#star", ease: Elastic.easeOut })
+
+
+var SMCon = new ScrollMagic.Controller();
+
+$('.section').each(function() {
+
+    var sectionTl = new TimelineMax();
+
+    sectionTl
+        .from(this, 1, { autoAlpha: 0, ease: Power0.easeNone }, 0)
+        .from(this, 1, { x: 120, ease: Power0.easeNone }, 0);
+
+    var scene = new ScrollMagic.Scene({
+            triggerElement: this,
+            duration: 550,
+            triggerHook: 0.8
+        })
+        .setTween(sectionTl)
+        .addTo(SMCon);
+});
