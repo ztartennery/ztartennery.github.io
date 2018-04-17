@@ -48,7 +48,7 @@ $('.section').each(function() {
 
     sectionTl
         .from(this, 1, { autoAlpha: 0, ease: Power0.easeNone }, 0)
-        .from(this, 1, { x: 120, ease: Power0.easeNone }, 0);
+        .from(this, 1, { x: 150, ease: Power0.easeNone }, 0);
 
     var scene = new ScrollMagic.Scene({
             triggerElement: this,
