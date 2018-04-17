@@ -62,8 +62,8 @@ $('.section').each(function() {
 // yellow-star animation
 
 var tlYellowStar = new TimelineMax();
-tlYellowStar.to("#yellow-star", 2.7, { rotation: 250, ease: Power2.easeInOut }, 0)
-    .to("#yellow-star", 2.7, {
+tlYellowStar.to("#yellow-star1", 2.7, { rotation: 250, ease: Power2.easeInOut }, 0)
+    .to("#yellow-star1", 2.7, {
 
         css: {
 
@@ -74,7 +74,35 @@ tlYellowStar.to("#yellow-star", 2.7, { rotation: 250, ease: Power2.easeInOut }, 
         },
         ease: Power2.easeInOut
     }, 0)
-    .to("#yellow-star", 2.7, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
+    .to("#yellow-star1", 2.7, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
+    // star2
+    .to("#yellow-star2", 2.5, { rotation: 250, ease: Power2.easeInOut }, 0)
+    .to("#yellow-star2", 2.5, {
+
+        css: {
+
+            top: "400px",
+            left: "100%"
+
+
+        },
+        ease: Power2.easeInOut
+    }, 0)
+    .to("#yellow-star2", 2.5, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
+    // star3
+    .to("#yellow-star3", 3, { rotation: 250, ease: Power2.easeInOut }, 0)
+    .to("#yellow-star3", 3, {
+
+        css: {
+
+            top: "400px",
+            left: "100%"
+
+
+        },
+        ease: Power2.easeInOut
+    }, 0)
+    .to("#yellow-star3", 3, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
 
 
 
