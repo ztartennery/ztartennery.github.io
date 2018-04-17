@@ -74,7 +74,7 @@ tlYellowStar.to("#yellow-star", 2.7, { rotation: 250, ease: Power2.easeInOut }, 
         },
         ease: Power2.easeInOut
     }, 0)
-    .to("#yellow-star", 2.7, { scaleX: 0.5, scaleY: 0.5, ease: Power2.easeInOut }, 0)
+    .to("#yellow-star", 2.7, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
 
 
 
