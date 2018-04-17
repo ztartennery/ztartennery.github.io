@@ -58,3 +58,31 @@ $('.section').each(function() {
         .setTween(sectionTl)
         .addTo(SMCon);
 });
+
+// yellow-star animation
+
+var tlYellowStar = new TimelineMax();
+tlYellowStar.to("#yellow-star", 2.7, { rotation: 250, ease: Power2.easeInOut }, 0)
+    .to("#yellow-star", 2.7, {
+
+        css: {
+
+            top: "400px",
+            left: "100%"
+
+
+        },
+        ease: Power2.easeInOut
+    }, 0)
+    .to("#yellow-star", 2.7, { scaleX: 0.5, scaleY: 0.5, ease: Power2.easeInOut }, 0)
+
+
+
+
+var sceneYellowStar = new ScrollMagic.Scene({
+        triggerElement: "#LifeStyle",
+        duration: 0,
+        triggerHook: 0.1
+    })
+    .setTween(tlYellowStar)
+    .addTo(SMCon);
