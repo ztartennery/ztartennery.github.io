@@ -38,7 +38,13 @@
 }
 
 
-
+#ufo {
+    position: fixed;
+    right: -70%;
+    bottom: 10%;
+    z-index: 10;
+    transform: scale(0.2, 0.2);
+}
 
 
 

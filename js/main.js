@@ -62,7 +62,9 @@ $('.section').each(function() {
 // yellow-star animation
 
 var tlYellowStar = new TimelineMax();
-tlYellowStar.to("#yellow-star1", 2.7, { rotation: 250, ease: Power2.easeInOut }, 0)
+tlYellowStar
+    // star1
+    .to("#yellow-star1", 2.7, { rotation: 250, ease: Power2.easeInOut }, 0)
     .to("#yellow-star1", 2.7, {
 
         css: {
@@ -102,7 +104,7 @@ tlYellowStar.to("#yellow-star1", 2.7, { rotation: 250, ease: Power2.easeInOut },
         },
         ease: Power2.easeInOut
     }, 0)
-    .to("#yellow-star3", 3, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0)
+    .to("#yellow-star3", 3, { scaleX: 0.5, scaleY: 0.5, ease: Power1.easeOut }, 0);
 
 
 
@@ -113,4 +115,30 @@ var sceneYellowStar = new ScrollMagic.Scene({
         triggerHook: 0.1
     })
     .setTween(tlYellowStar)
+    .addTo(SMCon);
+
+
+// ufo animation
+
+var tlufo = new TimelineMax();
+
+tlufo.to("#ufo", 2.7, {
+        css: {
+
+            right: "100%"
+
+
+        }
+    }, 0)
+    .to("#ufo", 2.7, {
+
+        y: 1000,
+        ease: CustomEase.create("custom", "M0,0,C0,0,0.044,0.236,0.116,0.294,0.234,0.338,0.194,0.186,0.372,0.212,0.474,0.244,0.438,0.488,0.58,0.564,0.692,0.626,0.702,0.424,0.868,0.504,0.966,0.564,1,1,1,1")
+    }, 0);
+var sceneufo = new ScrollMagic.Scene({
+        triggerElement: "#knowledge",
+        duration: 0,
+        triggerHook: 0.5
+    })
+    .setTween(tlufo)
     .addTo(SMCon);
